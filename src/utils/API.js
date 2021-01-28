@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const BASEURL = 'https://randomuser.me/api/?results=';
+const BASEURL = 'https://randomuser.me/api/?results=75';
 
-const Search = (howMany) => {
-    return axios.get(BASEURL + howMany)
+const Search = () => {
+    return axios.get(BASEURL)
 }
 
 export default Search;
