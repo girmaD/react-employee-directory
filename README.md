@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# react-employee-directory
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* View the [Github Repo](https://github.com/girmaD/react-employee-directory)
+* View the [Deployed App link](https://dry-taiga-52133.herokuapp.com/)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Description
+  This is a react application that data from [Random User API](https://randomuser.me/). It populates the data in a table when the page loads. A user can sort the data either by ascending or descending order by clicks on the name column of the table. A user has also the option to filter the data by name by typing on the search input field. Each character typed filters the data. Further, a user can filter the data by typing on the search input field and click enter on keyboard.
 
-### `npm start`
+  The app uses stateful class component to update state variables on page load, sort and filter. Those state variables and functions are passes as props down the stream to their respective components.
+    
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table Of Contents 
+* [Installation Instructions](#Installation-Instructions)
+* [How To Use The App](#How-To-Use-The-App)
+* [Contributing Guidelines](#Contributing-Guidelines)
+* [Test Information](#Test-Information)
+* [License](#License)
+* [Questions](#Questions)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Installation Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ * fork and use it.
+ * Don't forget to install all the modules this app depends on.
+ * npm i -> will install all the dependecies
 
-### `npm run build`
+## How To Use The App
+- If you fork it, launch the app on the terminal - using (npm start) or launch it on gh-pages using the provided link.
+- The app will display unsorted 75 employees in a table.
+- If a user wishes to sort employees, click on name on the table head. Clicks will toggle between ascending and descending order. It starts with ascending on the first click and toggle on each click after wards.
+- If a user wishes to filter the data, type on the search box on top of the table. Each character entered on the search box will filter the data by name.
+- Ones a user types all filtering word on the search box, click enter on the keyboard and that will clear the search box and displayed the filtered data
+- To get new data, simply refresh the page, that will make a new API call and fetches in new batch of 75 employees.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here is a screen shot of unsorted data
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Alt text](./public/assets/img/frontPage.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A screen shot of sorted employees by first name by asceding order
+![Alt text](./public/assets/img/stats.png) 
 
-### `npm run eject`
+A screen shot of sorted employees by first name by desceding order
+![Alt text](./public/assets/img/stats.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A screen shot of filtered employees by their name 
+![Alt text](./public/assets/img/stats.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing Guidelines
+ * contact me on the email provided below
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Test Information
+  * No test specified
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
+ * MIT
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Questions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Should you have any questions about this project,
+  * you can reach me through email: [girma.derib@gmail.com](mailto:girma.derib@gmail.com) 
+  * or visit my [Github Profile](https://github.com/girmaD) for more information.
