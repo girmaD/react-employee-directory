@@ -14,11 +14,12 @@ class EmployeeContainer extends Component {
     }
     //runs searchEmployee function when the page loads
     componentDidMount() {
+        
         this.searchEmployees();        
     }
     //searchEmployee funstion calls an API and then updates results property of the state variable
     searchEmployees = () => {
-        API()        
+        API()             
         .then(res => this.setState({ results: res.data.results }))                
         .catch(err => console.log(err));    
     };
@@ -30,8 +31,9 @@ class EmployeeContainer extends Component {
 
     //hanldleFilter function creates a new arr by filtering the origianl results array with elements containig the typed search characters on first or last name
     handleFilter = () => {
-      let arr = this.state.results;
-      let newArr =  arr.filter(result => result.name.first.indexOf(this.state.search) !== -1 || result.name.last.indexOf(this.state.search) !== -1)
+      let arr = this.state.results;            
+      let newArr = arr.filter(result => result.name.first.indexOf(this.state.search) !== -1 || result.name.last.indexOf(this.state.search) !== -1)
+      
       this.setState({results: newArr})
     }
     
