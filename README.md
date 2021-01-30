@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 * View the [Github Repo](https://github.com/girmaD/react-employee-directory)
-* View the [Deployed App link](https://dry-taiga-52133.herokuapp.com/)
+* View the [Deployed App link](https://girmad.github.io/react-employee-directory/)
 
 
 ## Description
@@ -36,16 +36,19 @@
 
 Here is a screen shot of unsorted data
 
-![Alt text](./public/assets/img/frontPage.png)
+![Alt text](./public/assets/mainPage.png)
+
 
 A screen shot of sorted employees by first name by asceding order
-![Alt text](./public/assets/img/stats.png) 
+![Alt text](./public/assets/ascending.png) 
+
 
 A screen shot of sorted employees by first name by desceding order
-![Alt text](./public/assets/img/stats.png)
+![Alt text](./public/assets/descending.png)
+
 
 A screen shot of filtered employees by their name 
-![Alt text](./public/assets/img/stats.png)
+![Alt text](./public/assets/filtered.png)
 
 ## Contributing Guidelines
  * contact me on the email provided below
