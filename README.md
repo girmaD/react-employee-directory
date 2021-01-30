@@ -36,19 +36,19 @@
 
 Here is a screen shot of unsorted data
 
-![Alt text](./public/assets/mainPage.png)
+![Alt text](./public/assets/main.png)
 
 
 A screen shot of sorted employees by first name by asceding order
-![Alt text](./public/assets/ascending.png) 
+![Alt text](./public/assets/asce.png) 
 
 
 A screen shot of sorted employees by first name by desceding order
-![Alt text](./public/assets/descending.png)
+![Alt text](./public/assets/desc.png)
 
 
 A screen shot of filtered employees by their name 
-![Alt text](./public/assets/filtered.png)
+![Alt text](./public/assets/filtd.png)
 
 ## Contributing Guidelines
  * contact me on the email provided below
